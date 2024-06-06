@@ -1,0 +1,74 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increase padding for better readability and spacing */
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px; /* Increase button padding for a larger size */
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff; /* White text color */
+  margin-bottom: 10px; /* Add margin bottom to create spacing between buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px; /* Increase input field padding for better spacing */
+  margin-bottom: 10px; /* Add margin bottom to create spacing between input fields */
+  width: calc(100% - 20px); /* Calculate width to accommodate padding */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border color on focus */
+}
+
+#insertButton {
+  display: block;
+  margin-top: 20px; /* Add margin top to create space between button and search field */
+}
+
+#loginForm {
+  margin-bottom: 20px; /* Add margin bottom to create space between login form and heading */
+}
+
+.search-container {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Align items vertically */
+}
+
+#searchInput {
+  flex: 1; /* Allow input field to grow and take up remaining space */
+  margin-right: 10px; /* Add margin between input field and button */
+}
